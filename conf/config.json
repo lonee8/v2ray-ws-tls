@@ -12,8 +12,7 @@
 			"clients": [
 				{
 					"id": "CLIENT_ID",
-					"alterId": CLIENT_ALTERID,
-					"security": "CLIENT_SECURITY"
+					"alterId": CLIENT_ALTERID
 				}
 			]
 		},
