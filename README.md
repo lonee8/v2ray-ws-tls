@@ -9,6 +9,7 @@ A v2ray docker image work with nginx which supposes php for Arukas.
 - add environment variables to edit optional setting
   - CLIENT_ID (default f3c9cb27-746f-4e41-acf2-820bd3002676)
   - CLIENT_ALTERID (default 100)
+  - CLIENT_WSPATH (default /fuckgfw_letscrossgfw)
 - don't need custom domain and ssl certificate
 - only cost 1 pods
 
