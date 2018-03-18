@@ -3,7 +3,6 @@ from nginx:latest
 ENV CLIENT_ID "f3c9cb27-746f-4e41-acf2-820bd3002676"
 ENV CLIENT_ALTERID 100
 ENV VER=3.14
-ENV CLIENT_PATH /fuckgfw_lovecnsztl
 
 ADD conf/nginx.conf /etc/nginx/
 ADD conf/default.conf /etc/nginx/conf.d/
