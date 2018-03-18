@@ -35,7 +35,7 @@ RUN chmod -R 777 /var/log/nginx /var/cache/nginx /var/run \
 
 ADD conf/config.json /etc/v2ray/
 ADD conf/www.conf /etc/php/7.0/fpm/pool.d/
-ADD src/tz.php /usr/share/nginx/html/
+ADD src/index.php /usr/share/nginx/html/
 
 EXPOSE 8080
 ENTRYPOINT ["/etc/entrypoint.sh"]
