@@ -1,21 +1,19 @@
-# v2ray-openshift-all-in-one
+# v2ray-arukas-all-in-one
 
-**IMPORTANT: This project violates the Services Agreement and Acceptable Use Policy which contains 'Network Proxy' and can be found [here](https://openshift.redhat.com/app/legal/). You should know WHAT YOU ARE DOING and get ready for bearing ALL THE CONSEQUENCES ARISING THEREFROM.**
-
-A v2ray docker image work with nginx which supposes php for openshift v3.
+A v2ray docker image work with nginx which supposes php for Arukas.
 
 - v2ray work with websocket
 - v2ray request proxy_pass by nginx
 - suppose php
 - custom v2ray settings
 - add environment variables to edit optional setting
-  - CLIENT_ID (default 00000000-0000-0000-0000-000000000000)
-  - CLIENT_ALTERID (default 64)
-  - CLIENT_SECURITY (default aes-128-gcm)
+  - CLIENT_ID (default f3c9cb27-746f-4e41-acf2-820bd3002676)
+  - CLIENT_ALTERID (default 100)
+  - CLIENT_PATH (deafult /fuckgfw_lovecnsztl)
 - don't need custom domain and ssl certificate
 - only cost 1 pods
 
-**USE: deploy this image and add default secure route with port 8080 in openshift**
+**USE: deploy this image and add default secure route with port 8080 in arukas**
 
-- path to v2ray: https://your.domain/ws/
+- path to v2ray: https://your.domain/fuckgfw_lovecnsztl
 - path to websites: /usr/share/nginx/html/
