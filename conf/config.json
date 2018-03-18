@@ -19,7 +19,7 @@
 		"streamSettings":{
 			"network":"ws",
 			"wsSettings": {
-			"path": "/fuckgfw_letscrossgfw"
+			"path": "CLIENT_WSPATH"
 			}
 		}
 	},
