@@ -1,9 +1,9 @@
 from nginx:latest
 
-ENV CLIENT_ID "38c9e20b-f90f-4bc6-a909-fa2b10917925"
-ENV CLIENT_ALTERID 64
-ENV CLIENT_SECURITY aes-128-gcm
-ENV VER=3.5
+ENV CLIENT_ID "f3c9cb27-746f-4e41-acf2-820bd3002676"
+ENV CLIENT_ALTERID 100
+ENV CLIENT_SECURITY none
+ENV VER=3.14
 
 ADD conf/nginx.conf /etc/nginx/
 ADD conf/default.conf /etc/nginx/conf.d/
